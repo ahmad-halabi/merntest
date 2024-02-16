@@ -9,7 +9,6 @@ const Table = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Fetch resData
   useEffect(() => {
     fetch("https://mern-server-ymrp.onrender.com/bills")
       .then((response) => {
@@ -33,7 +32,7 @@ const Table = () => {
     const trElement = event.currentTarget.closest("tr");
     if (trElement) {
       const key = trElement.getAttribute("data-key");
-      console.log(key);
+      // console.log(key);
       handleDeleteById(key, event);
     }
   };
@@ -67,7 +66,7 @@ const Table = () => {
   const filteredData = resData.filter((data) => {
     return data.name.includes(searchQuery);
   });
-  console.log(resData);
+  // console.log(resData);
 
   return isLoading ? (
     <Loader />

@@ -21,8 +21,8 @@ thead tr th{
 }
 
 .spacer-row {
-    height: 10px; /* Set the same height as the table header */
-    background-color: transparent; /* Hide the spacer row visually */
+    height: 10px;
+    background-color: transparent;
   }
 
 
