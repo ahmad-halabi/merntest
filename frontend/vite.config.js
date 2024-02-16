@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://mern-server-ymrp.onrender.com',
+        target: 'https://mern-server-ymrp.onrender.com/5555',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
