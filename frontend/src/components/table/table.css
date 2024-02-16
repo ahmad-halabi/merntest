@@ -1,0 +1,48 @@
+table{
+    font-family: monospace;
+    width: 300px;
+    padding-top: 10px;
+}
+
+
+thead{
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    top: 0;
+    padding-bottom: 10px;
+}
+
+thead tr th{
+    border-radius: 16px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.594);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+}
+
+.spacer-row {
+    height: 10px; /* Set the same height as the table header */
+    background-color: transparent; /* Hide the spacer row visually */
+  }
+
+
+tbody tr td {
+    font-size: 12px;
+    border: 1px rgb(96, 96, 96) solid;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 50px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.delete-button{
+    cursor: pointer;
+}

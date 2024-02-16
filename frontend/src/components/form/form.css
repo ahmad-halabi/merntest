@@ -1,0 +1,75 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 500px;
+    height: 320px;
+    background: rgba(0, 0, 0, 0.317);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(69, 82, 168, 0.18);
+  }
+  
+  .header h2{
+    padding: 8px;
+    border-radius: 16px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.594);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+  }
+  
+  label{
+      padding-bottom: 5px;
+  }
+  
+  .field-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 15px;
+  }
+  
+  input{
+      color: white;
+      background: rgba(0, 0, 0, 0.317);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(3.5px);
+      -webkit-backdrop-filter: blur(3.5px);
+      border: 1px solid rgba(69, 82, 168, 0.18);
+      text-align: center;
+  }
+  
+  input:focus { 
+      outline: none !important;
+      border-color: #ffffff;
+      box-shadow: 0 0 7px #ffffff66;
+   }
+  
+  .btn {
+    cursor: pointer;
+    color: white;
+    background: rgba(0, 0, 0, 0.317);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(69, 82, 168, 0.18);
+    text-align: center;
+    padding: 10px;
+    transition: 0.7s ease;
+    margin-top: 10px;
+    }
+    
+    .btn:hover {
+      text-decoration: none;
+      transform: scale(1.1);
+    }
+  
