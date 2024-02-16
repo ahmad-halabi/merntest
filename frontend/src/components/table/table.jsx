@@ -11,7 +11,7 @@ const Table = () => {
 
   // Fetch resData
   useEffect(() => {
-    fetch("/api/bills")
+    fetch("https://mern-server-ymrp.onrender.com/bills")
       .then((response) => {
         if (response.ok) {
           return response.json();
