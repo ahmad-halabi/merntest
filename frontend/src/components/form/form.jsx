@@ -18,7 +18,7 @@ const Form = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("/api/bills", {
+      const response = await fetch("https://mern-server-ymrp.onrender.com/bills", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

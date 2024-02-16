@@ -41,7 +41,7 @@ const Table = () => {
   const handleDeleteById = async (key, e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`/api/bills/${key}`, {
+      const response = await fetch(`https://mern-server-ymrp.onrender.com/bills/${key}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
